@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: Roboto;
 }
 
 *, *:before, *:after {
@@ -7,5 +8,30 @@ html {
 }
 
 html, body, #root {
-  height: 100%
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* roboto-regular - latin-ext_latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), local('Roboto-Regular');
+  src: url(./fonts/roboto-v20-latin-ext_latin_cyrillic-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  src: local('Roboto'), local('Roboto-Regular');
+  src: url(./fonts/roboto-v20-latin-ext_latin_cyrillic-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: bold;
+  src: local('Roboto'), local('Roboto-Regular');
+  src: url(./fonts/roboto-v20-latin-ext_latin_cyrillic-500.woff) format('woff');
 }
